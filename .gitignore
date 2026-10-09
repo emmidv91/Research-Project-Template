@@ -1,0 +1,61 @@
+# Python environments and bytecode
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.python-version.local
+*.egg-info/
+.eggs/
+
+# Test, type and formatting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook checkpoints (keep notebooks)
+.ipynb_checkpoints/
+
+# Local secrets/config (keep example configuration)
+.env
+.env.*
+!.env.example
+
+# Editor-local metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# LaTeX build products, scoped to report
+report/**/*.aux
+report/**/*.bbl
+report/**/*.blg
+report/**/*.fdb_latexmk
+report/**/*.fls
+report/**/*.log
+report/**/*.out
+report/**/*.synctex.gz
+report/**/*.toc
+report/**/*.lof
+report/**/*.lot
+report/**/*.nav
+report/**/*.snm
+report/**/*.vrb
+report/main.pdf
+
+# Intentionally keep small data, provenance, validation logs and figures.
+# Do not add blanket rules for results/, *.csv, *.json, *.h5, *.png or *.pdf.
+# Add specific rules for external large data only after documenting retention.
